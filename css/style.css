@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: #1a1818;
+    font-family: 'Roboto Slab', serif;
+}
+.left-aside-menu{
+    width: 299px;
+    height: 1121px;
+    background-color: #28272B;
+}
+.bienvenida{
+    width: 215px;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+    position: relative;
+    top: 50px;
+    left: 42px;
+    gap: 25px;
+}
+.avatar{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto;
+}
+.avatar-name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #fff;
+}
+.categoria_tienda{
+    width: 165px;
+    height: 237px;
+    position: relative;
+    top: 130px;
+    left: 42px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+.categoria_tienda_2{
+    width: 165px;
+    height: 237px;
+    position: relative;
+    top: 170px;
+    left: 42px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+.tienda_txt{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.15em;
+    color: #FFA049;
+}
+.tienda_button{
+    width: 165px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.tienda_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.tienda_button_txt{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+}
