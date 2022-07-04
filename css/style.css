@@ -1,11 +1,14 @@
 body{
     margin: 0;
-    background-color: #1a1818;
+    background-color: #1B1A1D;
     font-family: 'Roboto Slab', serif;
 }
+
+/* ===================================LEFT ASIDE MENU=================================== */
+
 .left-aside-menu{
-    width: 299px;
-    height: 1121px;
+    width: 320px;
+    height: 1200px;
     background-color: #28272B;
 }
 .bienvenida{
@@ -89,4 +92,495 @@ body{
     font-size: 18px;
     line-height: 150%;
     color: #fff;
+}
+.tarjeta{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    top: 145px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 30px;
+    background: #533A79;
+    border-radius: 15px;
+}
+.contenido{
+    width: 172px;
+    height: 267px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+}
+.contenido_img{
+    width: 70px;
+    height: 70px;
+
+}
+.contenido_texto{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.contenido_texto1{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido_texto2{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.actualizar{
+    width: 172px;
+    height: 47px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+    background: #FFA049;
+    border-radius: 25px;
+    border: 1px solid #FFA049;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* ===================================BUSCAR=================================== */
+.buscar-and-vector{
+    display: flex;
+    position: relative;
+    top: -1150px;
+    left: 350px; 
+}
+.buscar{
+    width: 370px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.search-menu{
+    display: flex;
+	align-items: center;
+	box-sizing: border-box;
+    padding: 10px 10px 10px 20px;
+    gap: 20px;
+    background: #1B1A1D;
+    border: 2px solid #323036;
+    border-radius: 50px;
+}
+.input{
+    background-color: #1B1A1D;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #46444B;
+    margin-left: -20px;
+}
+.input:active, :hover, :focus{
+    outline: 0;
+    outline-offset: 0;
+    color: #d7d2e4;
+}
+.buscar-vector{
+    width: 21px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.span-one{
+    position: relative;
+    top: -1100px;
+    left: 380px;
+}
+
+/* ===================================CATEGORIAS=================================== */
+
+.categorias{
+    width: 810px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 65px;
+    position: relative;
+    top: -1050px;
+    left: 380px;
+}
+.categoria{
+    width: 198px;
+    height: 21px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+}
+.gray{
+    border: 2px solid #46444B;
+    color: #46444B;
+    font-weight: 900;
+}
+.categoria-txt{
+    text-decoration: underline;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+}
+.categoria-txt-vector{
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.arrow-vector1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-vector{
+    width: 7.5px;
+    height: 12.48px;
+}
+
+/* ===================================PRODUCTOS=================================== */
+
+.productos{
+    width: 815px;
+    height: 980px;
+    position: absolute;
+    left: 380px;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+.fila-1{
+    width: 810px;
+    height: 441px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 26px;
+}
+.producto{
+    width: 392px;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 30px;
+    gap: 30px;
+    background: #28272B;
+    border: 2px solid #5DBF79;
+    border-radius: 16px;
+}
+.producto2{
+    width: 392px;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 30px;
+    gap: 30px;
+    background: #28272B;
+    border: 2px solid transparent;
+    border-radius: 16px;
+}
+.producto3{
+    width: 392px;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 30px;
+    gap: 30px;
+    background: #28272B;
+    border: 2px solid transparent;
+    border-radius: 16px;
+}
+.producto4{
+    width: 392px;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 30px;
+    gap: 30px;
+    background: #28272B;
+    border: 2px solid transparent;
+    border-radius: 16px;
+}
+.info-producto{
+    width: 392px;
+    height: 200px;
+    background: #5DBF79;
+    border-radius: 13px 13px 0px 0px;
+    background-image: url(../img/producto_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.info-producto2{
+    width: 395px;
+    height: 200px;
+    background: #FFA049;
+    border-radius: 13px 13px 0px 0px;
+    background-image: url(../img/producto_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.info-producto3{
+    width: 395px;
+    height: 200px;
+    background: #FFA049;
+    border-radius: 13px 13px 0px 0px;
+    background-image: url(../img/producto_3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.info-producto4{
+    width: 395px;
+    height: 200px;
+    background: #D7263D;
+    border-radius: 13px 13px 0px 0px;
+    background-image: url(../img/producto_4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.info-producto-txt{
+    position: absolute;
+    top: 225px;
+    left: 25px;
+}
+.contenido_criticas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 142px;
+    height: 24px;
+    position: absolute;
+    top: 310px;
+    left: 25px;
+}
+.contenido-span{
+    width: 34px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.4);
+}
+.presio-y-boton{
+    width: 338px;
+    height: 50px;
+    position: absolute;
+    top: 380px;
+    left: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.presio{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    width: 87px;
+    height: 45px;
+}
+.boton{
+    width: 226px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 10px;
+    background: #FFA049;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    border: 1px solid #FFA049;
+}
+.card2{
+    position: absolute;
+    left: 418px;
+}
+.card3{
+    position: absolute;
+    left: 0px;
+    margin-top: 20px;
+}
+.card4{
+    position: absolute;
+    left: 418px;
+    margin-top: 20px;
+}
+.fila-2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 26px;
+    width: 810px;
+    height: 441px;
+}
+
+/* ===================================INFO DEL JUGUETE=================================== */
+
+.info-del-juguete{
+    position: absolute;
+    width: 548px;
+    height: 1030px;
+    left: 1250px;
+    top: 80px;
+    background: #28272B;
+    border-radius: 15px;
+}
+.span-two{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 1250px;
+    top: 37px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 548px;
+    height: 386px;
+    background: #5DBF79;
+    border-radius: 15px 15px 0px 0px;
+    flex-wrap: wrap;
+    
+}
+.batipato{
+    width: 386px;
+    height: 386px;
+    background: url(../img/batipato1.png);
+    background-repeat: no-repeat;
+}
+.contenidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 25px 0px 0px 25px;
+    gap: 40px;
+    width: 531px;
+    height: 338px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 130px;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 485px;
+    height: 94px;
+}
+.batman{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #fff;
+}
+.batman2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+.contenido-criticas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 380px;
+    height: 24px;
+    flex-wrap: nowrap;
+}
+.contenido-span2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: underline;
+    font-family: 'Roboto Slab', serif;
+}
+.opiniones{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 531px;
+    height: 271px;
+}
+.contenido-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 478px;
+    height: 60px;
+    margin-top: 20px;
+}
+.user-name{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+.commit{
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: 'Roboto Slab', serif;
 }
